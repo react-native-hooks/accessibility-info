@@ -832,6 +832,9 @@
     xcode "^2.0.0"
     xmldoc "^0.4.0"
 
+"@rnhooks/acessibility-info@file:.yalc/@rnhooks/acessibility-info":
+  version "0.0.1-17d7ac79"
+
 "@types/babel__core@^7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.0.tgz#710f2487dda4dcfd010ca6abb2b4dc7394365c51"
