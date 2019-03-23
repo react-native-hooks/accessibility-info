@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "@rnhooks/acessibility-info": {
+      "signature": "17d7ac794ba0beb890cffa39a54b7c46",
+      "file": true
+    }
+  }
+}
