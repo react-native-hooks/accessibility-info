@@ -1,17 +1,17 @@
-# @rnhooks/acessibility-info [![Build Status](https://travis-ci.com/react-native-hooks/acessibility-info.svg?branch=master)](https://travis-ci.com/react-native-hooks/acessibility-info) [![Maintainability](https://api.codeclimate.com/v1/badges/66997889d9122a22f79b/maintainability)](https://codeclimate.com/github/react-native-hooks/acessibility-info/maintainability)
+# @rnhooks/accessibility-info [![Build Status](https://travis-ci.com/react-native-hooks/accessibility-info.svg?branch=master)](https://travis-ci.com/react-native-hooks/accessibility-info) [![Maintainability](https://api.codeclimate.com/v1/badges/2e060eaf8a629702a8c6/maintainability)](https://codeclimate.com/github/react-native-hooks/accessibility-info/maintainability)
 
 > React Native hook for [Accessibility Info](https://facebook.github.io/react-native/docs/accessibilityinfo#docsNav)
 
 ### Installation
 
 ```bash
-yarn add @rnhooks/acessibility-info
+yarn add @rnhooks/accessibility-info
 ```
 
 ### Usage
 
 ```js
-import useAccessibilityInfo from '@rnhooks/acessibility-info';
+import useAccessibilityInfo from '@rnhooks/accessibility-info';
 
 function App() {
   const isScreenReaderEnabled = useAccessibilityInfo();
@@ -29,6 +29,6 @@ function App() {
 
 ### Output
 
-| return                | Default | Description                                                    |
-| --------------------- | ------- | -------------------------------------------------------------- |
-| isScreenReaderEnabled | `false` | `true` when the screen reader is enabled and `false` otherwise |
+| Name                  | Type    | Default | Description                                                    |
+| --------------------- | ------- | ------- | -------------------------------------------------------------- |
+| isScreenReaderEnabled | boolean | `false` | `true` when the screen reader is enabled and `false` otherwise |

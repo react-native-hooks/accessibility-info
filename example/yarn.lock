@@ -832,8 +832,8 @@
     xcode "^2.0.0"
     xmldoc "^0.4.0"
 
-"@rnhooks/acessibility-info@file:.yalc/@rnhooks/acessibility-info":
-  version "0.0.1-17d7ac79"
+"@rnhooks/accessibility-info@file:.yalc/@rnhooks/accessibility-info":
+  version "0.0.1-85b6a36e"
 
 "@types/babel__core@^7.1.0":
   version "7.1.0"

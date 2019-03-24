@@ -47,7 +47,7 @@ const commonPlugins = [
   }),
   commonjs({
     namedExports: {
-      'react-native': ['View', 'Text'],
+      'react-native': ['AccessibilityInfo'],
       'react-is': ['isElement', 'isValidElementType', 'ForwardRef'],
     },
   }),
@@ -83,10 +83,10 @@ const standaloneBaseConfig = {
   ...configBase,
   input: './src/index.js',
   output: {
-    file: 'dist/react-native-hooks-acessibility-info.js',
+    file: 'dist/react-native-hooks-accessibility-info.js',
     format: 'umd',
     globals,
-    name: 'react-native-hooks-acessibility-info',
+    name: 'react-native-hooks-accessibility-info',
     sourcemap: true,
   },
   plugins: configBase.plugins.concat(
@@ -109,7 +109,7 @@ const standaloneProdConfig = {
   ...standaloneBaseConfig,
   output: {
     ...standaloneBaseConfig.output,
-    file: 'dist/react-native-hooks-acessibility-info.min.js',
+    file: 'dist/react-native-hooks-accessibility-info.min.js',
   },
   plugins: standaloneBaseConfig.plugins.concat(prodPlugins),
 };
@@ -119,10 +119,10 @@ const nativeConfig = {
   input: './src/index.js',
   output: [
     getCJS({
-      file: 'dist/react-native-hooks-acessibility-info.cjs.js',
+      file: 'dist/react-native-hooks-accessibility-info.cjs.js',
     }),
     getESM({
-      file: 'dist/react-native-hooks-acessibility-info.esm.js',
+      file: 'dist/react-native-hooks-accessibility-info.esm.js',
     }),
   ],
 };

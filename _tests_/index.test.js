@@ -1,7 +1,7 @@
-import sampleRNHooks from '../src';
+import useAccessibilityInfo from '../src';
 
-describe('Test Template function', () => {
+describe('Test Accessibility Info function', () => {
   it('should be a function', () => {
-    expect(typeof sampleRNHooks).toBe('function');
+    expect(typeof useAccessibilityInfo).toBe('function');
   });
 });

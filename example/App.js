@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import useAccessibilityInfo from '@rnhooks/acessibility-info';
+import useAccessibilityInfo from '@rnhooks/accessibility-info';
 
 const styles = StyleSheet.create({
   container: {
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.welcome}>@rnhooks/acessibility-info</Text>
+      <Text style={styles.welcome}>@rnhooks/accessibility-info</Text>
       <Text style={styles.instructions}>The screen reader is</Text>
       <Text style={styles.instructions}>
         {isScreenReaderEnabled ? 'on' : 'off'}

@@ -1,10 +1,10 @@
 {
-  "name": "@rnhooks/acessibility-info",
+  "name": "@rnhooks/accessibility-info",
   "version": "0.0.1",
   "description": "React Native hook for Accessibility Info",
-  "main": "dist/react-native-hooks-acessibility-info.cjs.js",
-  "jsnext:main": "dist/react-native-hooks-acessibility-info.esm.js",
-  "module": "dist/react-native-hooks-acessibility-info.esm.js",
+  "main": "dist/react-native-hooks-accessibility-info.cjs.js",
+  "jsnext:main": "dist/react-native-hooks-accessibility-info.esm.js",
+  "module": "dist/react-native-hooks-accessibility-info.esm.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "prepublishOnly": "run-s build",
@@ -25,7 +25,7 @@
     "react-native",
     "hooks",
     "react-native-hooks",
-    "acessibility-info"
+    "accessibility-info"
   ],
   "author": {
     "name": "Divyanshu Maithani",
@@ -35,12 +35,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-hooks/acessibility-info"
+    "url": "git+https://github.com/react-native-hooks/accessibility-info"
   },
   "bugs": {
-    "url": "https://github.com/react-native-hooks/acessibility-info#issues"
+    "url": "https://github.com/react-native-hooks/accessibility-info#issues"
   },
-  "homepage": "https://github.com/react-native-hooks/acessibility-info#readme",
+  "homepage": "https://github.com/react-native-hooks/accessibility-info#readme",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.3.0",
