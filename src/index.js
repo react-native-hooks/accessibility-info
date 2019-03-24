@@ -6,16 +6,14 @@ function useAccessibilityInfo() {
   const [isScreenReaderEnabled, setScreenReaderEnabled] = useState(false);
 
   useEffect(() => {
-    AccessibilityInfo.fetch().then(isEnabled =>
-      setScreenReaderEnabled(isEnabled),
-    );
-    AccessibilityInfo.addEventListener('change', isEnabled =>
-      setScreenReaderEnabled(isEnabled),
-    );
-    return () =>
-      AccessibilityInfo.removeEventListener('change', isEnabled =>
-        setScreenReaderEnabled(isEnabled),
-      );
+    function updateState(isEnabled) {
+      setScreenReaderEnabled(isEnabled);
+    }
+
+    AccessibilityInfo.fetch().then(updateState);
+    AccessibilityInfo.addEventListener('change', updateState);
+
+    return () => AccessibilityInfo.removeEventListener('change', updateState);
   }, []);
 
   return isScreenReaderEnabled;
